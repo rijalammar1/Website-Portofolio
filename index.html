@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- ===== DESKTOP NAV ===== -->
     <nav id="desktop-nav">
       <div class="logo">Rijal Ammar</div>
       <div>
@@ -20,6 +21,8 @@
         </ul>
       </div>
     </nav>
+
+    <!-- ===== HAMBURGER NAV (Mobile) ===== -->
     <nav id="hamburger-nav">
       <div class="logo">Rijal Ammar</div>
       <div class="hamburger-menu">
@@ -36,6 +39,8 @@
         </div>
       </div>
     </nav>
+
+    <!-- ===== PROFILE / HERO ===== -->
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="Rijal Ammar profile picture" />
@@ -74,6 +79,8 @@
         </div>
       </div>
     </section>
+
+    <!-- ===== ABOUT ===== -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -108,12 +115,13 @@
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Computer Science graduate with 1.5 years of experience as a
+              Website and Front-End Developer. Skilled in web and mobile
+              application development as well as responsive and user-friendly
+              user interface design. Accustomed to working collaboratively in
+              teams using software development workflows, and able to complete
+              tasks independently with a focus on quality and timeliness. If
+              you’re interested to work with me,
             </p>
           </div>
         </div>
@@ -125,11 +133,14 @@
         onclick="location.href = './#experience'"
       />
     </section>
+
+    <!-- ===== EXPERIENCE ===== -->
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Frontend Skills -->
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
@@ -162,17 +173,6 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>JavaScript</h3>
                   <p>Basic</p>
                 </div>
@@ -195,14 +195,17 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Flutter</h3>
+                  <p>Basic</p>
                 </div>
               </article>
             </div>
           </div>
+
+          <!-- Backend / Tools Skills -->
+          <!-- FIX: Judul sebelumnya salah "Frontend Development", seharusnya "Backend Development" -->
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
               <article>
                 <img
@@ -211,7 +214,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
+                  <h3>Node JS</h3>
                   <p>Basic</p>
                 </div>
               </article>
@@ -222,19 +225,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
@@ -245,7 +237,7 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Basic</p>
                 </div>
               </article>
             </div>
@@ -259,6 +251,8 @@
         onclick="location.href = './#projects'"
       />
     </section>
+
+    <!-- ===== PROJECTS ===== -->
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -267,72 +261,67 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/Projects.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">
+              Aplikasi Manajemen Crowdfunding Dengan Blockchain
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
+                onclick="
+                  location.href =
+                    'https://github.com/rijalammar1/GETH-blockchain'
+                "
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/FOTO - 01.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">
+              Website Blog React
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
+                onclick="
+                  location.href = 'https://github.com/rijalammar1/Blog-React'
+                "
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
-              >
-                Live Demo
-              </button>
             </div>
           </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/ShareIn.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Aplikasi ShareIn</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
+                onclick="
+                  location.href = 'https://gitlab.com/christopheradi/sharein'
+                "
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href = 'https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -345,6 +334,8 @@
         onclick="location.href = './#contact'"
       />
     </section>
+
+    <!-- ===== CONTACT ===== -->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -355,7 +346,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">rijaltn13@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -363,10 +354,12 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/rijal-ammar/">LinkedIn</a></p>
         </div>
       </div>
     </section>
+
+    <!-- ===== FOOTER ===== -->
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -378,8 +371,9 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Rijal Ammar. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
